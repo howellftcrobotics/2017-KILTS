@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<Robot type="FirstInspires-FTC">
+    <LynxUsbDevice name="Expansion Hub Portal 1" serialNumber="DQ178VHU" parentModuleAddress="2">
+        <LynxModule name="Expansion Hub 2" port="2">
+            <NeveRest40Gearmotor name="right_front" port="0" />
+            <NeveRest40Gearmotor name="right_rear" port="1" />
+            <NeveRest40Gearmotor name="left_rear" port="2" />
+            <NeveRest40Gearmotor name="left_front" port="3" />
+            <Servo name="right_lift_grabber_servo" port="0" />
+            <Servo name="left_lift_grabber_servo2" port="1" />
+            <Servo name="lift_vacuum_servo" port="2" />
+            <Servo name="left_lift_grabber_servo" port="3" />
+            <Servo name="left_jewel_arm_servo" port="5" />
+            <LynxEmbeddedIMU name="imu" port="0" bus="0" />
+            <LynxColorSensor name="right_jewel_arm_color" port="0" bus="2" />
+            <LynxColorSensor name="left_jewel_arm_color" port="0" bus="1" />
+        </LynxModule>
+        <LynxModule name="Expansion Hub 3" port="3">
+            <NeveRest20Gearmotor name="lift_motor" port="0" />
+            <NeveRest20Gearmotor name="relic_arm_motor" port="1" />
+            <NeveRest20Gearmotor name="lift_vacuum_motor" port="2" />
+            <Servo name="right_jewel_arm_servo" port="0" />
+            <Servo name="relic_arm_grabber_servo" port="2" />
+            <Servo name="relic_arm_knuckle_servo" port="4" />
+            <Servo name="right_lift_grabber_servo2" port="5" />
+            <DigitalDevice name="lift_touch_sensor1" port="1" />
+            <DigitalDevice name="lift_touch_sensor2" port="3" />
+            <LynxEmbeddedIMU name="imu 1" port="0" bus="0" />
+        </LynxModule>
+    </LynxUsbDevice>
+</Robot>
